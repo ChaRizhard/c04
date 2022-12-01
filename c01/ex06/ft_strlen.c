@@ -16,15 +16,15 @@ int	ft_strlen(char  *str)
 	{
 		i++;
 	}
+	return(i);
 }
 
 int main()
 {
-	int i;
-	i = 0;
+	char *str;
 
-	ft_strlen("This is my string");
-	printf("%i", i);
+	str = "This is my string";
+	printf("%i", ft_strlen(str));
 	return(0);
 }
 			
