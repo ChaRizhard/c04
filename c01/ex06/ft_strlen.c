@@ -17,8 +17,8 @@ int	ft_strlen(char  *str)
 int main()
 {
 	char *str;
-
 	str = "This is my string";
+
 	printf("The sentence is %i characters long including spaces", ft_strlen(str));
 	return(0);
 }
