@@ -24,7 +24,7 @@ int main()
 	char *str;
 
 	str = "This is my string";
-	printf("%i", ft_strlen(str));
+	printf("The sentence is %i characters long including spaces", ft_strlen(str));
 	return(0);
 }
 			
