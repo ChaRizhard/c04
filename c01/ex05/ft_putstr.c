@@ -9,11 +9,20 @@ void	ft_putchar(char c)
 void	ft_putstr(char *str)
 {
 	int i;
-	int = 0;
+	i = 0;
 
-	while (*str[i] != '\0')
+	while (str[i] != '\0')
 	{
 		ft_putchar(str[i]);
 		i++;
 	}
+}
+
+int main()
+{
+	int i;
+	i = 0;
+
+	ft_putstr("This is my string");
+	return(0);
 }
